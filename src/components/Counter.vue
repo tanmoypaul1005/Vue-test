@@ -1,13 +1,14 @@
 <!-- src/components/ApiData.vue -->
 <template>
   <div>
-      <!-- <div>
+  <!-- <div>
     <div v-if="loading">Loading data...</div>
     <div v-else>
       <h1>Data from API:</h1>
       <pre>{{ apiData.title }}</pre>
     </div>
   </div> -->
+  
     <div v-if="loading">Loading data...</div>
     <div v-else>
       <ul>
